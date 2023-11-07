@@ -7,7 +7,17 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Hello</h1>
+    <h1>Welcome to the chat 👩‍💻💻👨‍💻</h1>
+    <div id="chat-container">
+        <div id="chat-window">
+            <div id="output">
+                <div id="actions"></div>
+            </div>
+        </div>
+        <input type="text" id="userName" placeholder="User Name">
+        <input type="text" id="message" placeholder="Message">
+        <button id="send">Send</button>
+    </div>
 
     <script src="/socket.io/socket.io.js" charset="UTF-8"></script>
     <script src="chat.js" charset="UTF-8"></script>

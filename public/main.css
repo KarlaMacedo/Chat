@@ -1,4 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
 body{
-    background-color: black;
+    background: #476375;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #476375);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #476375); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
+    font-family: 'Delius', cursive;
 }
+
+h1{
+    font-family: 'Bungee';
+    text-align: center;
+}
+
+#chat-container{
+    max-width: 600px;
+    margin: 30px auto;
+    border: 2px solid rgb(97, 24, 131);
+    box-shadow: 1px 3px 5px rgba(0,0,0, .5);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgba(56, 14, 53, 0.178);
+}
+
+#chat-window{
+    padding: 14px 0;
+    margin: 20px;
+    border-bottom: 5px solid rgb(243, 243, 245);
+}
+
+#output p{
+    padding: 14px 0;
+    margin: 0 20px;
+    color: rgb(0, 0, 0);
+}
+
+#actions p {
+    padding:0;
+    margin: 0 20px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.39);
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+}
+
+::placeholder { 
+    color: white;
+ }
+
+ button{
+    background-color: rgb(97, 24, 131);
+    color: white;
+    font-size: 25px;
+    padding: 5px 0;
+    border: 0;
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: 'Bungee';
+ }
+
+ .userNames{
+    font-size: 18px;
+    color: white;
+ }
